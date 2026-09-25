@@ -22,7 +22,6 @@ async function main() {
     issuer: stellar.issuer,
     issuerAccountExists: Boolean(issuerAccount),
     numAccounts: record?.accounts ?? null,
-    numTrustlines: record?.trustlines ?? null,
     flags: record?.flags ?? null,
   }, null, 2));
 }
