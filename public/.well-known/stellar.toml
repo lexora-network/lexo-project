@@ -1,0 +1,23 @@
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+[DOCUMENTATION]
+ORG_NAME = "LEXO Token"
+ORG_URL = "https://lexo4lexora.vercel.app"
+ORG_LOGO = "https://lexo4lexora.vercel.app/logo.png"
+ORG_DESCRIPTION = "LEXO is a digital asset issued on the Stellar network by GDSCUECSJ2UHOZJHSPXJEEXXQRRS5XQD62Y6XIGMFKQY5PBXNIJGXXRP. The LEXO project provides information about the token, its issuance, supply, and presale terms through its official website."
+
+[[CURRENCIES]]
+code = "LEXO"
+issuer = "GDSCUECSJ2UHOZJHSPXJEEXXQRRS5XQD62Y6XIGMFKQY5PBXNIJGXXRP"
+name = "LEXO"
+desc = "Stellar-based digital asset with a total planned supply of 100,000,000 LEXO. The official project website provides information about the token, its distribution, presale terms, and project documentation."
+conditions = "Presale reference price: 1 XLM per LEXO. The presale price is a stated offering price and should not be interpreted as a guaranteed secondary-market price, redemption value, or investment return unless the issuer explicitly provides such a guarantee. Availability, allocation, eligibility, payment terms, and any applicable restrictions are subject to the official presale terms published by the issuer."
+image = "https://lexo4lexora.vercel.app/logo.png"
+status = "live"
+is_asset_anchored = false
+anchor_asset_type = "crypto"
+display_decimals = 7
+
+[[PRINCIPALS]]
+name = "LEXO Admin"
+email = "contact@lexo4lexora.vercel.app"
