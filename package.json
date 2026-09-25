@@ -1,8 +1,31 @@
 {
-  "name":"lexo-project",
-  "version":"0.1.0",
-  "private":true,
-  "scripts":{"dev":"next dev","build":"next build","start":"next start"},
-  "dependencies":{"next":"latest","react":"latest","react-dom":"latest"},
-  "devDependencies":{"@tailwindcss/postcss":"latest","@types/node":"latest","@types/react":"latest","@types/react-dom":"latest","tailwindcss":"latest","typescript":"latest"}
+  "name": "lexo-project",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "stellar:asset": "tsx scripts/stellar/verify-lexo-asset.tsx",
+    "stellar:sac:id": "tsx scripts/stellar/get-lexo-sac-id.tsx",
+    "stellar:sac:deploy": "tsx scripts/stellar/deploy-lexo-sac.tsx",
+    "stellar:sac:verify": "tsx scripts/stellar/verify-lexo-sac.tsx",
+    "stellar:sac:admin": "tsx scripts/stellar/set-lexo-sac-admin.tsx",
+    "stellar:home-domain": "tsx scripts/stellar/set-lexo-home-domain.tsx"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "tailwindcss": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
 }
