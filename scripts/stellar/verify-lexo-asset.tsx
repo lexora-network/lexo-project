@@ -21,9 +21,8 @@ async function main() {
     asset: stellar.asset,
     issuer: stellar.issuer,
     issuerAccountExists: Boolean(issuerAccount),
-    amount: record?.amount ?? null,
-    numAccounts: record?.num_accounts ?? null,
-    numTrustlines: record?.num_trustlines ?? null,
+    numAccounts: record?.accounts ?? null,
+    numTrustlines: record?.trustlines ?? null,
     flags: record?.flags ?? null,
   }, null, 2));
 }
